@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
 import { userRouter } from './routes/user';
-import { blogRouter } from './routes/routes';
+import { blogRouter } from './routes/blogs';
 // Create the main Hono app
 const app = new Hono<{
   //@ts-ignore
